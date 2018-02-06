@@ -1,0 +1,10 @@
+{
+  "android": {
+    "root": "android",
+    "moduleName": "app",
+    "dependencies": [
+      "com.aurelhubert:ahbottomnavigation:2.0.6",
+      "com.balysv.materialmenu:material-menu-toolbar:1.5.4"
+    ]
+  }
+}
