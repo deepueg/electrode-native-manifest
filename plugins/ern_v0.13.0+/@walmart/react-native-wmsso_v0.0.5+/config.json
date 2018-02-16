@@ -5,7 +5,6 @@
     "dependencies": [
       "com.walmart.platform.mobile.android:wmsso-lib:1.5.3"
     ],
-    ,
     "repositories": [
       "maven {url \"http://repo.wal-mart.com/content/repositories/snapshots\"}",
       "maven {url \"http://repo.wal-mart.com/content/repositories/walmart\"}"
