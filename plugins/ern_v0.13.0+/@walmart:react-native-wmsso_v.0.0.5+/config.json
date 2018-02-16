@@ -1,0 +1,9 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android",
+    "dependencies": [
+      "com.walmart.platform.mobile.android:wmsso-lib:1.5.3"
+    ]
+  }
+}
