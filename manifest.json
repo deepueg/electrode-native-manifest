@@ -2,7 +2,7 @@
   {
     "platformVersion": "1000.0.0",
     "targetNativeDependencies": [
-      "@walmart/react-native-wmsso@0.0.x"
+      "@walmart:react-native-wmsso@0.0.x"
     ]
   }
 ]
