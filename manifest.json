@@ -1,17 +1,5 @@
 [
   {
-    "platformVersion": "0.11.x",
-    "targetNativeDependencies": [
-      "@walmart/react-native-wmsso@0.0.x"
-    ]
-  },
-  {
-    "platformVersion": "0.12.x",
-    "targetNativeDependencies": [
-      "@walmart/react-native-wmsso@0.0.x"
-    ]
-  },
-  {
     "platformVersion": "0.13.x",
     "targetNativeDependencies": [
       "@walmart/react-native-wmsso@0.0.x"
