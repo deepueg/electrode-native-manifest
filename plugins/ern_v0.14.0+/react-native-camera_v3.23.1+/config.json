@@ -1,0 +1,43 @@
+{
+  "android": {
+    "root": "android",
+    "dependencies": [
+      "com.google.zxing:core:3.2.1",
+      "com.drewnoakes:metadata-extractor:2.11.0",
+      "com.google.android.gms:play-services-vision:17.0.2",
+      "androidx.exifinterface:exifinterface:1.0.0",
+      "androidx.annotation:annotation:1.0.0",
+      "androidx.legacy:legacy-support-v4:1.0.0",
+      "com.google.firebase:firebase-ml-vision:19.0.3",
+      "com.google.firebase:firebase-ml-vision-face-model:17.0.2"
+    ],
+    "permissions" : [
+      "android.permission.CAMERA"
+    ]
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/RNCamera",
+        "source": "ios/**"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNCamera/**\""
+      ],
+      "addProject": [
+        {
+          "group": "Libraries",
+          "path": "RNCamera/RNCamera.xcodeproj",
+          "staticLibs": [
+            {
+              "name": "libRNCamera.a",
+              "target": "RNCamera"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
